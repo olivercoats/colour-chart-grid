@@ -2,13 +2,13 @@
   --chart-gap: clamp(10px, 2.5vw, 45px);
   --tile-aspect-lge-scrn: 1 / 1;
   --tile-aspect-sml-scrn: 4 / 1;
-  --col-4-lge-scrn: 1fr 1fr 1fr 1fr;
+  --col-4-lge-scrn: repeat(4, 1fr);
   --col-4-sml-scrn: 1fr;
-  --col-6-lge-scrn: 1fr 1fr 1fr 1fr 1fr 1fr;
+  --col-6-lge-scrn: repeat(6, 1fr);
   --col-6-sml-scrn: 1fr;
-  --col-9-lge-scrn: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  --col-9-lge-scrn: repeat(9, 1fr);
   --col-9-sml-scrn: 1fr;
-  --col-12-lge-scrn: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  --col-12-lge-scrn: repeat(12, 1fr);
   --col12-sml-scrn: 1fr;
   --border-radius: 5px;
   --colour-name-bg: hsla(0, 0%, 0%, 0.3);
